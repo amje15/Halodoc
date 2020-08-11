@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Halodoc Test Suite">
+
+
+
+    <parameter name="date" value="20"></parameter>
+    <parameter name="origin" value="Kaula Lampur"></parameter>
+    <parameter name="destination" value="Melacca"></parameter>
+    <parameter name="name" value="amar"></parameter>
+    <parameter name="number" value="1231230909"></parameter>
+    <parameter name="email" value="abcd@gmail.com"></parameter>
+
+    <test name="Halodoc Test">
+        <classes>
+            <class name="TestCases.HomePageTest"></class>
+
+
+        </classes>
+    </test>
+</suite>
